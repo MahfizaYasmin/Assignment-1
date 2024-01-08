@@ -62,3 +62,47 @@ body{
     margin: 0px;
     padding-bottom: 20px;
 }
+
+/* welcome section styles */
+.welcome-section{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/resources/Vectorrr.png');
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    margin-top: 100px;
+}
+.party{
+    display: flex;
+}
+.welcome-party{
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-bottom: 140px;
+}
+.party img{
+    padding: 66px 126px 68px 45px;
+}
+.welcome-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    margin: 0px;
+    padding-right: 55px;
+    padding-bottom: 24px;
+}
+.welcome-subtitle{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 17px;
+    width: 697px;
+    padding-right: 40px;
+}
+.welcome-party button{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    padding-top: 48px;
+    padding-left: 32px;
+}
