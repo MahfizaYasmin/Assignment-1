@@ -8,6 +8,7 @@ body{
 .container{
     margin: 50px 100px 100px 100px;
 }
+/* header banner styles */
 .header{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/resources/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -34,4 +35,30 @@ body{
     font-weight: 900;
     padding-left: 344px;
     padding-right: 344px;
+    margin-top: 5px;
+}
+
+/* holiday styles */
+.holiday-section{
+    text-align: center;
+}
+.header-section img{
+    width: 700px;
+    height: 400px;
+}
+.holiday-offer{
+    color: #F00;
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+.holiday-title{
+    color: #F00;
+    font-size: 20px;
+    margin: 0px;
+}
+.holiday-subtitle{
+    color: #070211;
+    font-size: 43px;
+    margin: 0px;
+    padding-bottom: 20px;
 }
