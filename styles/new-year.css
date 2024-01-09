@@ -240,10 +240,11 @@ body{
     flex-shrink: 0;
     margin: 0px;
 }
-.box img{
-    width: 685px;
+.box img {
+    width: 710px;
     height: 570px;
-    padding-right: 140px;
+    padding-right: 95px;
+    padding-left: 20px;
 }
 .offer{
     background-image: url('../images/resources/Rectangle\ 1.png');
@@ -260,7 +261,7 @@ body{
     width: 206.841px;
     height: 206.841px;
     flex-shrink: 0;
-    margin-left: -200px;
+    margin-left: -100px;
     margin-top: 90px;
 }
 /* gift section style */
@@ -325,16 +326,18 @@ body{
 .btn-item{
     text-align: center;
     padding-top: 40px;
+    padding-left: 300px;
 }
 .email-btn{
     width: 648px;
-    height: 52px;
+    height: 40px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-bottom: 15px;
+    border: none;
 }
 .email-btn[placeholder]{
     color: rgba(7, 2, 17, 0.30);
@@ -342,7 +345,7 @@ body{
 }
 .subscribe-btn{
     width: 210px;
-    height: 52px;
+    height: 40px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -350,8 +353,74 @@ body{
     text-align: center;
     font-size: 20px;
     text-transform: capitalize;
-    padding: 24px 56px;
-    padding-bottom: 54px;
-    margin-right: 330px;
+    padding: 22px 48px;
+    padding-bottom: 48px;
+    margin-right: 300px;
     margin-left: -215px;
+    border: none;
+}
+/* footer styles */
+.footer-section{
+    background: #070211;
+}
+.footer-detail{
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+.footer-address{
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 550px;
+}
+.footer-address p{
+    margin: 0px;
+}
+.footer-contact{
+    padding-top: 110px;
+    padding-right: 270px;
+    margin: 0px;
+}
+.footer-contact p{
+    margin: 0px;
+}
+.social-link{
+    padding-left: 610px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.social-link img{
+    padding-right: 24px;
+}
+.footer-section hr{
+    background: rgba(119, 110, 110, 0.15);
+    width: 1320px;
+    height: 1px;
+    border: none;
+}
+.footer-end{
+    color: #FFF;
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 110px;
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.footer-end p{
+    
+    padding-right: 800px;
+    margin: 0px;
+}
+.footer-end button{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    
 }
