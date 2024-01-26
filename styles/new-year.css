@@ -6,7 +6,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin: 100px 100px 100px 100px;
+    width: 1320px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 /* header banner styles */
@@ -236,7 +239,7 @@ body{
     background: url('../images/resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    border-radius: 16px 0px 16px 16px;
+    border-radius: 16px 16px 16px 16px;
     flex-shrink: 0;
     margin: 0px;
 }
@@ -255,7 +258,7 @@ body{
     height: 348px;
     flex-shrink: 0;
     margin: 0px;
-    padding-left: 133px;
+    padding-left: 150px;
 }
 .offer img{
     width: 206.841px;
@@ -388,7 +391,8 @@ body{
     margin: 0px;
 }
 .social-link{
-    padding-left: 610px;
+    display: flex;
+    justify-content: center;
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -396,7 +400,7 @@ body{
     padding-right: 24px;
 }
 .footer-section hr{
-    background: rgba(119, 110, 110, 0.15);
+    background: rgba(146, 135, 135, 0.15);
     width: 1320px;
     height: 1px;
     border: none;
@@ -409,11 +413,7 @@ body{
     padding-top: 40px;
     padding-left: 140px;
     padding-right: 140px;
-}
-.footer-end p{
-    
-    padding-right: 800px;
-    margin: 0px;
+    justify-content: space-between;
 }
 .footer-end button{
     color: #FFF;
